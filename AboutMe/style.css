@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.789), rgba(255, 255, 255, 0.559));
+    overflow: hidden;
+    list-style-type: none;
+    padding: 30px;
+    
+    border-bottom: 3px solid white;
+
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    text-decoration: none;
+    font-family: "Jersey 10";
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+
+    padding: 15px 20px;
+    margin: 10px;
+}
+
+.link a {
+    background-color: black;
+    color: white;
+
+    border: 3px solid white;
+}
+
+.Introduction {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.content {
+    background-color: white;
+    border: 3px rgb(181, 162, 162) solid;
+    border-radius: 25px;
+    overflow: hidden;
+
+    padding: 25px 30px;
+    margin-left: 10%;
+    
+    font-family: "Jersey 10";
+    font-size: 35px;
+
+    position: relative;
+    top: 35vh;
+    z-index: -1;
+}
+
+.image {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Coffee {
+    position: relative;
+    bottom: 27vh;
+    z-index: -1;
+}
+
+.line_1 {
+    border: 3px solid white;
+
+    position: relative;
+    bottom: 13px;
+    z-index: -1;
+}
+
+.About {
+    background-color: white;
+
+    font-family: "Jersey 10";
+    font-size: 60px;
+    text-align: center;
+
+    padding: 15px;
+}
+
+.line_2 {
+    border: 3px solid white;
+
+    position: relative;
+    top: 15px;
+    z-index: -1;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image1, .image2, .image3 {
+    background-color: white;
+    border: 3px solid darkgrey;
+    border-radius: 25px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+    position: relative;
+    top: 25vh;
+    z-index: -1;
+}
+
+.image1 {
+    position: relative;
+    right: 1vw;
+}
+
+.image2 {
+    position: relative;
+    left: 1vw;
+}
+
+.image3 {
+    position: relative;
+    left: 2vw;
+}
+
+.Flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: auto;
+}
+
+.text_1, .text_2, .text_3 {
+    background-image: url(back\ copy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    border: 3px solid white;
+    border-radius: 15px;
+
+    padding: 20px;
+    margin: 10px;
+
+    color: white;
+    font-family: "Jersey 10";
+    font-size: 24px;
+    text-align: center;
+
+    position: relative;
+    top: 35vh;
+    z-index: -1;
+}
+
+.text_1 h3, .text_2 h3, .text_3 h3 {
+    font-weight: 200;
+}
+
+.Hobbies p {
+    background-color: white;
+    
+    position: relative;
+    top: 60vh;
+
+    font-family: "Jersey 10";
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    
+    padding: 15px;
+    z-index: -1;
+}
+
+.line_3 {
+    border: 3px solid white;
+
+    position: relative;
+    top: 58vh;
+}
+
+.line_4 {
+    border: 3px solid white;
+
+    position: relative;
+    top: 62vh;
+}
+
+.Flexbox_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hobbie_1, .Hobbie_2, .Hobbie_3 {
+    background-color: rgb(7, 7, 7);
+    border: 1px solid white;
+    border-radius: 10px;
+
+    position: relative;
+    top: 89vh;
+
+    width: 50%;
+    padding: 20px 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 10px;
+    z-index: -1;
+
+    font-family: "Jersey 10";
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+
+.image4 {
+    position: relative;
+    top: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.line_5 {
+    border: 3px solid white;
+    position: relative;
+    top: 128vh;
+
+    z-index: -1;
+}
+
+.Foods {
+    background-color: white;
+    
+    position: relative;
+    top: 130vh;
+
+    font-family: "Jersey 10";
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    
+    padding: 15px;
+    z-index: -1;
+}
+
+.line_6 {
+    border: 3px solid white;
+    position: relative;
+    top: 132vh;
+
+    z-index: -1;
+}
+
+.image_1, .image_2, .image_3{
+    position: relative;
+    top: 165vh;
+    margin: 30px;
+    margin-left: 120px;
+    z-index: -1;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(255, 234, 0);
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.Flexbox_3 > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_1, .content_2, .content_3{
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+
+    font-family: "Jersey 10";
+    font-size: 35px;
+
+    width: 50%;
+    padding: 45px;
+
+    position: relative;
+    left: 40vw;
+    z-index: -1;
+    margin: 10px;
+    text-align: center;
+}
+
+.content_1 {
+    position: relative;
+    bottom: 5vh;
+
+    background-image: linear-gradient(rgb(249, 163, 3), rgb(237, 169, 44));
+}
+
+.content_2 {
+    position: relative;
+    top: 2vh;
+
+    background-image: linear-gradient(rgb(255, 250, 198), rgb(120, 120, 84));
+    border-color: black;
+}
+
+.content_3 {
+    position: relative;
+    top: 10vh;
+
+    background-image: linear-gradient(rgb(240, 255, 73), rgb(254, 255, 189));
+}
